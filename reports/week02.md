@@ -36,7 +36,7 @@ service snmpd restart
 service snmpd status 
 
 
-#3. Kerätyt tiedot 
+# 3. Kerätyt tiedot 
 
 ## Yhteyden testaaminen
 

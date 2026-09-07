@@ -21,7 +21,7 @@ SNMP-agentti asennettiin web1-palvelimelle apt komenolla.
 Tämän jälkeen muutettiin konfiguraatiotiedostosta yhteisön nimi ja agent address: eli sallitiin yhteys 161 portista.
 Lopuksi Palvelu käynnistettiin uudelleen ja service status käskyllä tarkistetiin palvelimen käynnissä olo.
 
-*Komennot:* 
+**Komennot:** 
 
 docker exec -it clab-hamk-verkonhallinta-golden-web1 bash
 
@@ -81,7 +81,7 @@ SNMPv2-MIB::sysORUpTime.9 = Timeticks: (0) 0:00:00.00
 SNMPv2-MIB::sysORUpTime.10 = Timeticks: (0) 0:00:00.00
 root@ansible:/etc/snmp#
 
-*Selitys:* 
+**Selitys:** 
 
 Kaikkea en tästä ymmärrä, eikä tarvitsekkaan. Pääasia on, että ymmärrän web1:sen vastaavan ja yhteyden toimivan.
 Objektit näyttävät toimivan, vastausta tulee stringinä, kuten pitääkin.
@@ -92,7 +92,7 @@ Objektit näyttävät toimivan, vastausta tulee stringinä, kuten pitääkin.
 root@ansible:/etc/snmp# snmpget -v2c -c public web1 sysName.0
 SNMPv2-MIB::sysName.0 = STRING: web1
 
-*selitys:* 
+**selitys:**
 
 Tässä kyselyssä kysytään järjestelmän nimeä ja vastauksena saadaan string muododssa web1.
 
@@ -103,7 +103,7 @@ root@ansible:/etc/snmp# snmpget -v2c -c public web1 sysDescr.0
 SNMPv2-MIB::sysDescr.0 = STRING: Linux web1 6.18.33.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun 18 21:54:43 UTC 2026 x86_64
 root@ansible:/etc/snmp#
 
-*selitys:*
+**selitys:**
 
 Komennon objekti hakee järjestelmän kuvauksen. 
 Tietona saadaan, että kyseessä on WSL2:sessa toimiva Linux palvelin. Lopussa on myös timestamp, ja suoritin on 64 bittinen.   
@@ -116,7 +116,7 @@ DISMAN-EVENT-MIB::sysUpTimeInstance = Timeticks: (349897) 0:58:18.97
 root@ansible:/etc/snmp#
 
 
-*selitys:*
+**selitys:**
 
 SysUpTime objektilla saadaan tieto kauanko järjestelmä on ollut käynnissä
 tickkeinä sekä selkokielisenä. Minulla palvelin on ollut päällä nyt noin 58 minuuttia.
@@ -131,7 +131,7 @@ IF-MIB::ifDescr.2 = STRING: eth0
 root@ansible:/etc/snmp#
 
 
-*selitys:*
+**selitys:**
 
 En ole varma muistanko väärin, mutta joskus minulla oli näitä kyllä kolme, niinkuin sinulla tallenteessa.
 Se kolmas oli se virallinen reitti, jota käytetiin muulloin kun hallinnassa. Tässä tehtävässä käytetään kuitenkin tätä hallintaväylää, joten en ole vielä ihmetellyt miksi.
@@ -174,7 +174,7 @@ Voit myös asettaa käyttäjä tilejä yksittäin eri käyttöoikeuksilla yhden 
 
 
 
-*Tekoälyn käyttö tehtävässä:*
+**Tekoälyn käyttö tehtävässä:**
 
 Minulla oli ongelmia saada yhteys ansiblesta web1:seen. numeerisesti sain yhteyden, mutta en sanallisesti. Kysyin tästä sinulta sähköpostilla, ja ohjasit laittamaan agent addressiksi 161 portin, jotta yhteys olisi auki. Tein tämän, mutta se ei kuitenkaan riittänyt. 
 Tämän johdosta kysyin tekoälyltä, ja se ohjasi lataamaan mibs downloaderin uudestaan sekä kommentoimaan rivin asetuksista. Olin tämän jo aiemmin tehnyt, mutta todennäköisesti vahingossa web1:selle.

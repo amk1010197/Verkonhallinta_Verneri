@@ -142,11 +142,11 @@ Tarkistin tämän vielä ip a komennolla web1:sessä.
 
 # 5. OID-analyysi
 
-sysName.0 = Kertoo järjestelmän nimen
-sysDescr.0 = kertoo järjestelmän kuvauksen 
-sysUpTime.0 = kertoo järjestelmän käynnissäolo ajan 
-ifDescr= näyttää kaikki rajapinnat
-ifOperStatus = Raportoi meneekö rajapinnan kautta liikennettä vai onko ongelmia: eli raportoi statuksen. 
+- sysName.0 = Kertoo järjestelmän nimen
+- sysDescr.0 = kertoo järjestelmän kuvauksen 
+- sysUpTime.0 = kertoo järjestelmän käynnissäolo ajan 
+- ifDescr= näyttää kaikki rajapinnat
+- ifOperStatus = Raportoi meneekö rajapinnan kautta liikennettä vai onko ongelmia: eli raportoi statuksen. 
  
  
 ## Usean laitteen valvonta 

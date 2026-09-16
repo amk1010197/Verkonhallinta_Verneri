@@ -5,7 +5,7 @@ set -euo pipefail
 ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 COMPOSE_FILE="${ROOT_DIR}/configs/netbox/docker-compose.yml"
 ENV_FILE="${ROOT_DIR}/configs/netbox/.env"
-ENV_TEMPLATE="${ROOT_DIR}/configs/netbox/.env.example"
+ENV_TEMPLATE="${ROOT_DIR}/configs/netbox/example.environment"
 SEED_FILE="${ROOT_DIR}/configs/netbox/seed/netbox_seed.py"
 
 MODE="upsert"

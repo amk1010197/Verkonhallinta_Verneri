@@ -54,7 +54,7 @@ Tämän jälkeen kokeilin 4 coren kuormitusta 100% 60 sekunnin ajan. Se näkyi s
 Verkkoliikennettäkin oli, sillä Node Exporterit ja Prometheus käyttää kaistaa, vaikka varsinaista nettitestiä ei tässä ollutkaan.
 
 
-# 6. SNMP vs Prometheu
+# 6. SNMP vs Prometheus
 
 
 |           Ominaisuus           |           SNMP           |        Prometheus        |

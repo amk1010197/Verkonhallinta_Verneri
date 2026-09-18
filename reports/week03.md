@@ -61,17 +61,17 @@ Verkkoliikennettäkin oli, sillä Node Exporterit ja Prometheus käyttää kaist
 |           Ominaisuus           |           SNMP           |        Prometheus        |
 |--------------------------------|--------------------------|--------------------------|
 | Tiedonkeruu                    | UDP/TCP, OID             | Exporterit, HTTP/S       |
-|--------------------------------|--------------------------|--------------------------|
+
 | Käyttöönotto                   | helpompi verkkolaitteissa| helpompi pilvi, palvelu  |
-|--------------------------------|--------------------------|--------------------------|
+|
 | Mittarien määrä                | OID, ei labels           | Enemmän metriikoita      |
-|--------------------------------|--------------------------|--------------------------|
+|
 | Visualisointi                  | Datan keruu protokolla   | Modernit graafit         |
-|--------------------------------|--------------------------|--------------------------|
+|
 | Hälytysmahdollisuudet          | SNMP traps, tarvii NMS   | Yksityiskohtainen        |
-|--------------------------------|--------------------------|--------------------------|
+
 | Soveltuvuus pilviympäristöihin | Parempi verkkolaitteissa | Soveltuu hyvin           |
-|--------------------------------|--------------------------|--------------------------|
+
 
 1. Prometheus voi yhdistää useita metriikoita, toimii paremmin pilvipalveluympäristöissä, queryt ovat joustavia ja Alertmanager toimii tehokkaasti. SNMP toimii paremmin vähemmän joustavuutta tarvittavissa asioissa. 
 2. Ylläpitäjän kannattaa seurata vähintään Cpu usagea, muistia, verkkoliikennettä ja levyn käyttöä sekä sen tilaa. 

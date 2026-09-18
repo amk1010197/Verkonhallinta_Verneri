@@ -41,12 +41,12 @@ Prometheus näyttää, että web1 on päällä portissa 9100, johon Node Exporte
 Prometheus hakee tietoa tasaisesti, jonka huomaa siitä, että Last scrape päivittyy. Status on UP, joka tarkoittaa että saadaan yhteys.
 Todiste on images kansiossa nimellä prometheus-todiste. 
 
-# 4.
+# 4. Dashboard
 
 Dashboardista otin vain yhden kuvan, jossa on kuormitustestin tulokset samassa, joten todiste löytyy kuormitus-dashboard-todiste nimellä images kansiosta. 
 Testattu yhteys löytyy taas nimellä testattu-yhteys samasta kansiosta.
 
-#5. Kuormitustesti 
+# 5. Kuormitustesti 
 
 Sain mittarit lukemaan tietoja sekä vaihdoin 5 minuutin tarkkuuteen, jotta huomaan eron selvästi.
 Kokeilin ensiksi levy kuormituksen nostamista. Tiedosto oli suhteellisen pieni, joten levynprosentti nousi vain 0,02%. 
@@ -54,7 +54,7 @@ Tämän jälkeen kokeilin 4 coren kuormitusta 100% 60 sekunnin ajan. Se näkyi s
 Verkkoliikennettäkin oli, sillä Node Exporterit ja Prometheus käyttää kaistaa, vaikka varsinaista nettitestiä ei tässä ollutkaan.
 
 
-#6. SNMP vs Prometheu
+# 6. SNMP vs Prometheu
 
 
 |           Ominaisuus           |           SNMP           |        Prometheus        |

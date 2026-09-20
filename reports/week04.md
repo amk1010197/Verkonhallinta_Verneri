@@ -30,7 +30,7 @@ Koodi on images kansiossa nimellä snmp_code ja tuloste on nimellä snmp-tuloste
 # 3. Node Exporter Playbook 
 
 Node Exportereiden asennus toimi virhettömästi asensin ne web1,client1,db1 ja branch-clientille. 
-Playbookkki loi hakemiston, latasi Exporterin, purki paketin ja käynnisti palvelun.
+Playbookki loi hakemiston, latasi Exporterin, purki paketin ja käynnisti palvelun.
 Koodi on images kansiossa nimellä exporter_code ja tuloste on nimellä exporter-tuloste
 
 

@@ -55,6 +55,6 @@ Ymmärsin myös nimenomaan mitä LaC:llä tarkoitetaan ja milloin se on hyödyll
 
 # Tekoälyn käyttöni työssä 
 
-Käytin tekoälyä ainoastaan SNMP Playbook kohdassa, jossa service moduuli ei toiminut. Kysyin tekoälyltä miksi palvelut ei käynnisty. Tekoäly pyysi tarkistamaan manuaalisesti toimiiko shellistä, se toimi, joten ohjeisti miten muutan koodin moduulista shell komentoon.
+Käytin tekoälyä ainoastaan SNMP Playbook kohdassa, jossa service moduuli ei toiminut. Kysyin tekoälyltä miksi palvelu ei käynnisty. Tekoäly pyysi tarkistamaan manuaalisesti toimiiko shellistä, se toimi, joten ohjeisti miten muutan koodin moduulista shell komentoon.
 
 

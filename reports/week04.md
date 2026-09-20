@@ -34,7 +34,7 @@ Playbookkki loi hakemiston, latasi Exporterin, purki paketin ja käynnisti palve
 Koodi on images kansiossa nimellä exporter_code ja tuloste on nimellä exporter-tuloste
 
 
-#4. Vertailu 
+# 4. Vertailu 
 
 4.5 kohdassa järjestelmätiedot piti kerätä taulukkoon, mutta raportoinnin ohjeessa ei siitä mitään puhuta. 
 Tämän vuoksi en rupea väsäämään taulukkoa, mutta kerron ne tässä lyhyesti. 16 corea, Ubuntu 24.04, mem = 8gb, ip = 172.20.20.50.
@@ -47,7 +47,7 @@ Automaation hyöty on toistettavuus, nopeus ja monitorointi siinä mielessä, et
 Automaatio on välttämätöntä kun laitteita on satoja eikä aikaa ole ihmettelyyn.
 
 
-#5. Yhteenveto 
+# 5. Yhteenveto 
 
 Opin miten automaatio toimii, sen että kyse on vain siitä, ettei manuaalista työtä tehdä sen enempää mitä tarvitsee. Play recapista näki hienosti onnistuuko asennukset yksityiskohtaisesti.
 Ymmärsin myös nimenomaan mitä LaC:llä tarkoitetaan ja milloin se on hyödyllistä. 

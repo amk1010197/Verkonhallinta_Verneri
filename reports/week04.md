@@ -27,7 +27,7 @@ koska koodi jo valmiiksi targettasi ubuntu_hosts niin jätin sieltä poistamatta
 Koodi on images kansiossa nimellä snmp_code ja tuloste on nimellä snmp-tuloste.
 
 
-#3. Node Exporter Playbook 
+# 3. Node Exporter Playbook 
 
 Node Exportereiden asennus toimi virhettömästi asensin ne web1,client1,db1 ja branch-clientille. 
 Playbookkki loi hakemiston, latasi Exporterin, purki paketin ja käynnisti palvelun.

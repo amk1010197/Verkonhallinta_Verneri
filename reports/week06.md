@@ -6,22 +6,22 @@ Tässä tehtävässä tutustumme Zabbixiin, sen ominaisuuksiin ja sen mahdollisu
 
 ## 1.1 Zabbixin käyttöliittymä 
 
-- Hosts: Tältä välilehdeltä voi lisätä hosteja sekä muuttaa niiden asetuksia. Hosteja voivat olla esimerkiksi palvelimet, laitteet ja sovellukset
-- Templates: Tältä välilehdeltä voidaan lisätä omia malleja tai laittaa template jollekkin laitteelle. Templatet ovat valmiiksi tehtyjä paketteja, jotka tekevät ennalta määritetyt asiat jokaiselle valitulle kohteelle. Esimerkiksi hakee Linuxin tilatietoja. 
-- Dashboards: Yleisnäkymä, jolta näet yleistilan ja laitteet. Voit luoda omia dashboardeja sekä laittaa haluamaasi dataa näkyviin. 
-- Alerts: Ilmoitukset, täältä voidaan asettaa, kun jokin thresholdi täyttyy tulee ilmoitus. Esimerkiksi levytila on vähissä. 
-- Reports: Voidaan luoda ajastettuja raportteja, jotka antavat hyödyllistä tietoa järjestlelmien tilasta. 
+- **Hosts**: Tältä välilehdeltä voi lisätä hosteja sekä muuttaa niiden asetuksia. Hosteja voivat olla esimerkiksi palvelimet, laitteet ja sovellukset
+- **Templates**: Tältä välilehdeltä voidaan lisätä omia malleja tai laittaa template jollekkin laitteelle. Templatet ovat valmiiksi tehtyjä paketteja, jotka tekevät ennalta määritetyt asiat jokaiselle valitulle kohteelle. Esimerkiksi hakee Linuxin tilatietoja. 
+- **Dashboards**: Yleisnäkymä, jolta näet yleistilan ja laitteet. Voit luoda omia dashboardeja sekä laittaa haluamaasi dataa näkyviin. 
+- **Alerts: Ilmoitukset**, täältä voidaan asettaa, kun jokin thresholdi täyttyy tulee ilmoitus. Esimerkiksi levytila on vähissä. 
+- **Reports**: Voidaan luoda ajastettuja raportteja, jotka antavat hyödyllistä tietoa järjestlelmien tilasta. 
 
-#2. Hostien lisääminen 
+# 2. Hostien lisääminen 
 
 Sain onnistuneesti lisättyä web1,db1 ja client1:sen hosteiksi. 
 Cpu Usage, verkkoliikenne, muisti ja uptime on monitoroitavissa. Tästä kuva images kansiossa nimellä host_todiste.jpg 
 
-#3. Dashboard 
+# 3. Dashboard 
 
 Kuva dashboardista images kansiossa nimellä dashboard.jpg 
 
-#4. Mittarit 
+# 4. Mittarit 
 
 Tehtävässä ei määritelty miltä laitteelta mittaukset otetaan, valitsin web1:sen. 
 
@@ -35,7 +35,7 @@ Tehtävässä ei määritelty miltä laitteelta mittaukset otetaan, valitsin web
 
 
 
-#5. Triggerit 
+# 5. Triggerit 
 
 ## 1. Prosessorin täysi kuormitus 
 
